@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.happy {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+.happy-jod {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mr-jod {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+}
+
+.jod-qr {
+  font-family: phetsarath ot;
+  font-size: 200%;
+}
+
+.jod-birtday {
+  font-family: phetsarath ot;
+  font-size: 200%;
+}

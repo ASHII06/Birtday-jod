@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #demo {
+            font-family: "Playwrite GB S", cursive;
+  font-size: 21px;
+  text-align: center;
+}
+    </style>
+
+</head>
+<body>
+    
+    <p id="demo"></p>
+    <script>
+        let i = 0;
+        let txt = 'Happy birthday, my dear friend. Thank you for being such a wonderful friend. You always been there for me as a counselor, a support system, and a constant companion. No matter what happens, you are always by my side. I wish you all the happiness and success in the world. May we continue to share many more happy moments together.';
+        let speed = 50; // Adjust speed as needed
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        
+        typeWriter();
+        </script>
+
+
+</body>
+</html>
